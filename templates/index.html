@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vacation Planner</title>
+</head>
+<body>
+    <h1>Plan Your Vacation</h1>
+    <form action="/plan" method="POST">
+        <label for="country">Country:</label>
+        <input type="text" id="country" name="country" required><br>
+
+        <label for="vacation_type">Type of Vacation:</label>
+        <select id="vacation_type" name="vacation_type" required>
+            <option value="beach">Beach</option>
+            <option value="skiing">Skiing</option>
+            <option value="hiking">Hiking</option>
+            <option value="sightseeing">Sightseeing</option>
+        </select><br>
+
+
+        <input type="submit" value="Plan Vacation">
+    </form>
+</body>
+</html>
