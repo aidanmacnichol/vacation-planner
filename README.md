@@ -2,7 +2,7 @@
 Project for ENSF 607/608
 
 
-# PYTHON PACKAGES
+# SETUP: VENV AND INSTALLING PACKAGES
 I am using a virtual enviroment called 'venv'.
 
 1. To activate the enviroment:
